@@ -1,4 +1,4 @@
-include "class_figure.h"
+#include "class_figure.h"
 #include "class_triangle.h"
 #include "class_right_triangle.h"
 #include "class_isosceles_triangle.h"
@@ -17,14 +17,6 @@ int main()
 	SetConsoleOutputCP(1251);
 	SetConsoleCP(1251);
 	std::system("chcp 1251");
-
-    rh.print_info();
-    std::cout << "Введите имя: ";
-    std::string name;
-    std::cin >> name;
-    std::cout << std::endl;
-
-    std::cout << "Здравствуйте: " << name << " !" << std::endl;
 
     Figure f;
     f.print_info();

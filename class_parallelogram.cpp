@@ -5,7 +5,7 @@
 
 Parallelogram::Parallelogram()
 {
-    name = "ֿאנאככוכמדנאלל";
+    name = "Параллелограмм";
     length_side_a = length_side_c = 20;
     length_side_b = length_side_d = 30;
     value_angle_A = value_angle_C = 30;
